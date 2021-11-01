@@ -1,18 +1,29 @@
-* {
-    font-family: Helvetica, Arial, sans-serif;
-  }
-   
+@font-face {
+  font-family: Raleway, sans-serif;
+  src: url("font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Raleway, sans-serif;
+  src: url("font/Raleway-Italic-VariableFont_wght.ttf");
+  font-style: italic, oblique
+}
    
   h1 {
+    font-family: Raleway, sans-serif;
     color: SeaGreen;
   }
    
-   
-  p, 
-  li {
+  p {
+    font-family: Raleway, sans-serif;
+    color: black;
     font-size: 18px;
   }
-   
-   
-  a {
-    text-decoration: none;
+
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
