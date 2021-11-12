@@ -8,7 +8,7 @@
   src: url("font/Raleway-Italic-VariableFont_wght.ttf");
   font-style: italic, oblique
 }
-   
+
 h1 {
   font-family: Raleway, sans-serif;
   color: black;
@@ -30,7 +30,7 @@ html {
 }
 
 @media screen and (min-width: 992px) {
-  .header {
+  .flexbox {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -76,10 +76,18 @@ html {
   border-top: 2px solid #0065FC;
   padding-top: 28px
   }
+
+  .button {
+  height: auto;
+  }
+
+  .myBtnContainer {
+  display: flex
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .flexbox {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -128,7 +136,7 @@ html {
 }
 
 @media screen and (max-width: 767px) {
-  .header {
+  .flexbox {
   display: flex;
   width: 100%;
   flex-direction: row;

@@ -3,13 +3,15 @@
 <head>
 
   <link href="./index.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Booki</title>
 
 </head>
   <header>
-    <div class="header">
+    <div class="flexbox">
       <div class="logo">
       <img src="./Resources/Images/logo/Booki.png" alt="Booki logo"></div> 
       <div class="navbar">
@@ -19,13 +21,30 @@
         <nav class="nav-item"><a href="#">Activites</a></nav>
       </div>   
     </div>
-    <div class="header">
+    <div class="flexbox">
       <div class="left-text">
         <h1>Find a place for your dream vacation</h1>
         <p>Downtown or in nature</p>
       </div>
     </div>
   </header>
+
   <body>
+    <div class="flexbox">
+        <form id="form">
+          <div class="button"><i class="fa-solid fa-location-dot"></i></div> 
+          <input type="search" id="query" name="q" placeholder="Type to search">
+          <button>Search</button>
+          <aria-label="Search through site content">
+        </form>
+        <div id="myBtnContainer">
+        <p><b>Filters</b></p>
+        <button class="btn" onclick="filterSelection('low cost')"> Low cost</button>
+        <button class="btn" onclick="filterSelection('family-friendly')"> Family-friendly</button>
+        <button class="btn" onclick="filterSelection('romantic')"> Romantic</button>
+        <button class="btn" onclick="filterSelection('pets allowed')"> Pets allowed</button>
+        </div>
+      </div>
+    </div>  
   </body>
 </html>
