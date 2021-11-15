@@ -1,0 +1,231 @@
+@font-face {
+  font-family: Raleway, sans-serif;
+  src: url("font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Raleway, sans-serif;
+  src: url("font/Raleway-Italic-VariableFont_wght.ttf");
+  font-style: italic, oblique
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 18px;
+}
+   
+p {
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (min-width: 992px) {
+  .flexbox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  }
+
+  .logo {
+  margin-right: auto; 
+  padding-top: 32px;
+  }
+
+  .left-text {
+  margin-right: auto; 
+  }
+
+  .nav-item {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 18px;
+  display: inline-block;
+  padding-top: 32px
+  }
+
+  .nav-item a:link {
+  text-decoration: none;
+  padding: 10px 20px;
+  padding-top: 30px
+  }
+
+  .nav-item a:visited {
+  text-decoration: none;
+  padding: 10px 20px;
+  padding-top: 30px
+  }
+
+  .nav-item a:hover {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+  padding-top: 28px
+  }
+
+  .formdesign {
+    width: 400px;
+    border: 1px;
+    border-color: blue;
+    height: 40px;
+    margin-right: auto
+  }
+
+  .mapimg {
+    margin-right: auto;
+    position: relative;
+    width: 40px;
+    height: 100%;
+  }
+
+  .button {
+    padding: 5px 30px;
+  }
+
+  .form {
+    position: absolute;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  input {
+    border: 0;
+    width: 60px;
+    height: 100%;
+  }
+  .search {
+    width: 100px;
+    height: 100%;
+  }
+  .submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .logo {
+  margin-right: auto; 
+  padding-top: 32px;
+  }
+
+  .left-text {
+  margin-right: auto; 
+  }
+
+  .nav-item {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 18px;
+  display: inline-block;
+  padding-top: 32px
+  }
+
+  .nav-item a:link {
+  text-decoration: none;
+  padding: 10px 20px;
+  padding-top: 30px
+  }
+
+  .nav-item a:visited {
+  text-decoration: none;
+  padding: 10px 20px;
+  padding-top: 30px
+  }
+
+  .nav-item a:hover {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+  padding-top: 28px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flexbox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+    
+  .logo {
+  flex-basis: 100%;
+  text-align: center;
+  }
+
+  .img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left-text {
+  margin-right: auto;
+  padding-left: 10%;
+  padding-top: 2%;
+  flex: 2;
+  }
+
+  .navbar {
+  flex-basis: 50%;
+  text-align: center;
+  justify-items: stretch;
+  }
+
+  .nav-item {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 18px;
+  padding-bottom: 10px;
+  flex: 1;
+  }
+    
+  .nav-item a:link {
+  text-decoration: none;
+  padding: 10px 20px;
+  }
+    
+  .nav-item a:visited {
+  text-decoration: none;
+  padding: 10px 20px;
+  }
+    
+  .nav-item a:hover {
+  text-decoration: none;
+  color: #0065FC;
+  padding: 10px 20px;
+  border-bottom: 2px solid #0065FC;
+  }
+}
