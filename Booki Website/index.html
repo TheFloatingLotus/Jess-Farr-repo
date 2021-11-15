@@ -13,7 +13,7 @@
   <header>
     <div class="flexbox">
       <div class="logo">
-      <img src="./Resources/Images/logo/Booki.png" alt="Booki logo"></div> 
+      <img class="img" src="./Resources/Images/logo/Booki logo small.png" alt="Booki logo"/></div> 
       <div class="navbar">
         <nav class="nav-item"><a href="#">Accomodations</a></nav>
       </div> 
@@ -32,12 +32,11 @@
   <body>
     <div class="flexbox">
         <form id="form">
-          <div class="button"><i class="fa-solid fa-location-dot"></i></div> 
+          <i class="fa-solid fa-location-dot"></i>
           <input type="search" id="query" name="q" placeholder="Type to search">
-          <button>Search</button>
+          <button><a class="button"><Search></a></button>
           <aria-label="Search through site content">
         </form>
-        <div id="myBtnContainer">
         <p><b>Filters</b></p>
         <button class="btn" onclick="filterSelection('low cost')"> Low cost</button>
         <button class="btn" onclick="filterSelection('family-friendly')"> Family-friendly</button>

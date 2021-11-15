@@ -35,12 +35,13 @@ html {
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   }
 
   .logo {
   margin-right: auto; 
+  padding-top: 32px;
   }
 
   .left-text {
@@ -77,12 +78,45 @@ html {
   padding-top: 28px
   }
 
-  .button {
-  height: auto;
+  .formdesign {
+    width: 400px;
+    border: 1px;
+    border-color: blue;
+    height: 40px;
+    margin-right: auto
   }
 
-  .myBtnContainer {
-  display: flex
+  .mapimg {
+    margin-right: auto;
+    position: relative;
+    width: 40px;
+    height: 100%;
+  }
+
+  .button {
+    padding: 5px 30px;
+  }
+
+  .form {
+    position: absolute;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  input {
+    border: 0;
+    width: 60px;
+    height: 100%;
+  }
+  .search {
+    width: 100px;
+    height: 100%;
+  }
+  .submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
   }
 }
 
@@ -98,6 +132,7 @@ html {
   
   .logo {
   margin-right: auto; 
+  padding-top: 32px;
   }
 
   .left-text {
@@ -149,16 +184,16 @@ html {
   text-align: center;
   }
 
+  .img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .left-text {
   margin-right: auto;
   padding-left: 10%;
   padding-top: 2%;
   flex: 2;
-  }
-
-  .img {
-  margin-left: auto;
-  margin-right: auto;
   }
 
   .navbar {
